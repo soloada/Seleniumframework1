@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="5">
+    <listeners>
+        <listener class-name="org.TestComponents.Listeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Me/Desktop/SolomonsSeleniunProject/src/test/java/org/TestCases">
+        <classes>
+            <class name="org.TestCases.LandingPageTest">
+                <methods>
+                    <include name="landingPageRunner"/>
+                </methods>
+            </class>
+            <class name="org.TestCases.LoginTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="org.TestCases.SubmenuTest">
+                <methods>
+                    <include name="submenuRunner"/>
+                </methods>
+            </class>
+            <class name="org.TestCases.headerTest">
+                <methods>
+                    <include name="footerRunner"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

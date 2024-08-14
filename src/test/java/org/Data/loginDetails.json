@@ -1,0 +1,13 @@
+[
+  {
+    "LoginName":"webdriverio2",
+    "Password": "webdriverio2"
+
+  },
+
+  {
+    "LoginName":"webdriverio2",
+    "Password": "setToFail"
+  }
+
+ ]
